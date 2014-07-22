@@ -1,0 +1,34 @@
+{
+  "name": "react-transition",
+  "version": "0.0.1",
+  "authors": [
+    "Paulo Ragonha <paulo@ragonha.me>"
+  ],
+  "description": "React Component to perform transitions on prop changes",
+  "main": "react-transition.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "transition",
+    "reactjs",
+    "animation",
+    "tween"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.11.0",
+    "underscore": "~1.6.0",
+    "d3": "~3.4.11"
+  }
+}

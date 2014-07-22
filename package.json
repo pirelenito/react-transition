@@ -1,0 +1,26 @@
+{
+  "name": "react-transition",
+  "version": "0.0.1",
+  "description": "React Component to perform transitions on prop changes",
+  "main": "react-transition.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pirelenito/react-transition.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "transition",
+    "animation",
+    "tween"
+  ],
+  "author": "Paulo Ragonha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pirelenito/react-transition/issues"
+  },
+  "homepage": "https://github.com/pirelenito/react-transition"
+}
