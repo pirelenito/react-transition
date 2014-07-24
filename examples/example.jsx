@@ -12,8 +12,6 @@ var App = React.createClass({
   },
 
   render: function () {
-    console.log(this.state.left);
-
     return (
       <div style={{padding: 10}}>
         <div><button onClick={this.handleTweenClick}>Tween Me</button></div>
