@@ -1,0 +1,47 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>React Transition example</title>
+  <script src="http://fb.me/react-0.11.0.min.js"></script>
+  <script src="http://fb.me/JSXTransformer-0.11.0.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="http://underscorejs.org/underscore-min.js" charset="utf-8"></script>
+
+  <script src="../react-transition.js" charset="utf-8"></script>
+
+
+  <style>
+    div {
+      font-family: Helvetica, sans-serif;
+      font-size: 11pt;
+    }
+
+    .boundingBoxStyle {
+      border-radius: 4px;
+      background-color: rgb(240, 240, 232);
+      position: relative;
+      margin: 5px 3px 10px;
+      width: 450px;
+      height: 50px;
+    }
+
+    .block {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-radius: 4px;
+      background-color: rgb(130, 181, 198);
+    }
+
+    #content1 {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="content"></div>
+
+  <script type="text/jsx" src="example.jsx"></script>
+  <p>Example based on <a href="https://github.com/chenglou/react-tween-state">react-tween-state</a></p>
+</body>
+</html>

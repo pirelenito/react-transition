@@ -6,6 +6,8 @@ Was created to be used on drawing SVG charts with [D3](http://d3js.org/), but ca
 
 It is available as an UMD, having support for [AMD](https://github.com/amdjs/amdjs-api/wiki/AMD), [CommonJS](http://wiki.commonjs.org/wiki/CommonJS) and globals.
 
+Check the [live demo](https://raw.githubusercontent.com/pirelenito/react-transition/master/example/index.html) and [sorce](https://raw.githubusercontent.com/pirelenito/react-transition/master/example/example.jsx).
+
 ## Usage
 
 Install with [Bower](http://bower.io/):
@@ -48,7 +50,10 @@ In the previous example, the `Transition` component will actualy render a `React
 * [D3](http://d3js.org/)
 * [Underscore](http://underscorejs.org/)
 
-
 ## Author
 
 [Paulo Ragonha](http://paulo.ragonha.me/)
+
+## Similar work
+
+You can check [@chenglou](https://github.com/chenglou)'s approach to animation using mixins: [react-tween-state](https://github.com/chenglou/react-tween-state).
