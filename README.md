@@ -6,7 +6,7 @@ Was created to be used on drawing SVG charts with [D3](http://d3js.org/), but ca
 
 It is available as an UMD, having support for [AMD](https://github.com/amdjs/amdjs-api/wiki/AMD), [CommonJS](http://wiki.commonjs.org/wiki/CommonJS) and globals.
 
-Check the [live demo](https://raw.githubusercontent.com/pirelenito/react-transition/master/example/index.html) and [sorce](https://raw.githubusercontent.com/pirelenito/react-transition/master/example/example.jsx).
+Check the [live demo](https://raw.githubusercontent.com/pirelenito/react-transition/master/examples/index.html) and [sorce](https://raw.githubusercontent.com/pirelenito/react-transition/master/examples/example.jsx).
 
 ## Usage
 
