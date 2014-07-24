@@ -33,7 +33,7 @@
 
     startAnimation: function () {
       var start = new Date().getTime(),
-          end = start + this.props.duration,
+          end = start + parseInt(this.props.duration, 10),
           finished = false,
           that = this;
 
