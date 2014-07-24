@@ -20,7 +20,7 @@ With [NPM](http://npmjs.org/):
 npm install react-transition
 ```
 
-Or simply dowload the [react-transition.js](https://raw.githubusercontent.com/pirelenito/react-transition/master/react-transition.js) file and add as a script tag in your HTML:
+Or simply dowload the [react-transition.js](https://raw.githubusercontent.com/pirelenito/react-transition/master/react-transition.js) file and add as a script tag in your HTML (it will expose a `ReactTransition` global variable):
 
 ```html
 <script src='react-transition.js'></script>

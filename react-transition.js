@@ -9,7 +9,7 @@
     module.exports = factory(require('react'), require('d3'), require('underscore'));
   } else {
     // Browser globals (root is window)
-    root.returnExports = factory(root.React, root.d3, root._);
+    root.ReactTransition = factory(root.React, root.d3, root._);
   }
 }(this, function (React, d3, _) {
 
@@ -23,7 +23,7 @@
     Usage:
     <Transition component={React.DOM.path} ease="bounce" duration="500" className="link" d={diagonal(link)}/>
    */
-  var Transition = React.createClass({
+  var ReactTransition = React.createClass({
     getDefaultProps: function () {
       return {
         ease: 'cubic-in-out',
@@ -95,6 +95,6 @@
     }
   });
 
-  return Transition;
+  return ReactTransition;
 
 }));
