@@ -11,15 +11,15 @@ var App = React.createClass({displayName: 'App',
 
   render: function () {
     return (
-      React.DOM.div({style: {padding: 10}},
-        React.DOM.div(null, React.DOM.button({onClick: this.handleTweenClick}, "Tween Me")),
+      React.createElement("div", {style: {padding: 10}},
+        React.createElement("div", null, React.createElement("button", {onClick: this.handleTweenClick}, "Tween Me")),
 
-        React.DOM.div({className: "boundingBoxStyle"},
-          ReactTransition({component: React.DOM.div, ease: "bounce", duration: "1000", className: "block", style: { left: this.state.left}})
+        React.createElement("div", {className: "boundingBoxStyle"},
+          React.createElement(ReactTransition, {component: "div", ease: "bounce", duration: "1000", className: "block", style: { left: this.state.left}})
         )
       )
     );
   }
 });
 
-React.renderComponent(App(null), document.querySelector('#content'));
+React.render(React.createElement(App), document.querySelector('#content'));

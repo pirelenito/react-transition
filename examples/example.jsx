@@ -17,11 +17,11 @@ var App = React.createClass({
         <div><button onClick={this.handleTweenClick}>Tween Me</button></div>
 
         <div className="boundingBoxStyle">
-          <ReactTransition component={React.DOM.div} ease="bounce" duration="1000" className="block" style={{ left: this.state.left }}/>
+          <ReactTransition component="div" ease="bounce" duration="1000" className="block" style={{ left: this.state.left }}/>
         </div>
       </div>
     );
   }
 });
 
-React.renderComponent(<App/>, document.querySelector('#content'));
+React.render(<App/>, document.querySelector('#content'));
