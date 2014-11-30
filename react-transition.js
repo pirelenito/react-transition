@@ -21,7 +21,7 @@
     @param [props.duration='500'] duration of the transition
 
     Usage:
-    <Transition component={React.DOM.path} ease="bounce" duration="500" className="link" d={diagonal(link)}/>
+    <Transition component={"path"} ease="bounce" duration="500" className="link" d={diagonal(link)}/>
    */
   var ReactTransition = React.createClass({
     getDefaultProps: function () {
@@ -91,7 +91,7 @@
     },
 
     render: function () {
-      return this.props.component(this.state, this.props.children);
+      return React.createElement(this.props.component, this.state, this.props.children);
     }
   });
 
