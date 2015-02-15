@@ -4,7 +4,7 @@
 
 [React.js](http://reactjs.com/) component that will apply transitions on any prop change. Was created to be used on drawing SVG charts with [D3](http://d3js.org/), but can be used for anything.
 
-![Demo](https://rawgit.com/pirelenito/react-transition/master/demo.gif)
+![Demo](https://rawgit.com/pirelenito/react-transition/master/demo-animation.gif)
 
 Check the [live demo](https://rawgit.com/pirelenito/react-transition/master/index.html).
 
