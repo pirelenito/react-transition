@@ -32,20 +32,28 @@ It also is available as an UMD. Having support for [AMD](https://github.com/amdj
 bower install react-transition
 ```
 
-Or simply dowloading the [dist/react-transition.js](https://raw.githubusercontent.com/pirelenito/react-transition/master/dist/react-transition.js) distribution file and add as a script tag in your HTML (it will expose a `ReactTransition` global variable):
+Or simply dowloading the [dist/react-transition.js](https://raw.githubusercontent.com/pirelenito/react-transition/master/dist/react-transition.js) distribution file and add as a script tag in your HTML (it will expose a `ReactTransition` global variable) allongsite with its depencencies:
 
 ```html
-<script src='react-transition.js'></script>
+<script src="vendor/react.min.js"></script>
+<script src="vendor/d3.min.js" charset="utf-8"></script>
+<script src='vendor/react-transition.js'></script>
 ```
 
 ## Easing functions
 
-[Check D3's documentation](https://github.com/mbostock/d3/wiki/Transitions#d3_ease) to see the available *easing* function.
+[Check D3's documentation](https://github.com/mbostock/d3/wiki/Transitions#d3_ease) to see the available *easing* function. But some examples are:
 
-## Dependencies
-
-* [React.js](http://reactjs.com/)
-* [D3](http://d3js.org/)
+ * linear - the identity function, t.
+ * poly(k) - raises t to the specified power k (e.g., 3).
+ * quad - equivalent to poly(2).
+ * cubic - equivalent to poly(3).
+ * sin - applies the trigonometric function sin.
+ * exp - raises 2 to a power based on t.
+ * circle - the quarter circle.
+ * elastic(a, p) - simulates an elastic band;
+ * back(s) - simulates backing into a parking space.
+ * bounce - simulates a bouncy collision.
 
 ## Author
 
