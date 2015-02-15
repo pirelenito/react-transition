@@ -1,44 +1,40 @@
 # React Transition Component
 
-[React.js](http://reactjs.com/) component that will apply transitions on any prop change. Uses [D3](http://d3js.org/) interpolator functions underneath.
+[React.js](http://reactjs.com/) component that will apply transitions on any prop change. Was created to be used on drawing SVG charts with [D3](http://d3js.org/), but can be used for anything.
 
-Was created to be used on drawing SVG charts with [D3](http://d3js.org/), but can be used for anything.
+![Demo](https://rawgit.com/pirelenito/react-transition/master/demo.gif)
 
-It is available as an UMD, having support for [AMD](https://github.com/amdjs/amdjs-api/wiki/AMD), [CommonJS](http://wiki.commonjs.org/wiki/CommonJS) and globals.
-
-Check the [live demo](https://rawgit.com/pirelenito/react-transition/master/examples/index.html) and [source code](https://raw.githubusercontent.com/pirelenito/react-transition/master/examples/example.jsx).
+Check the [live demo](https://rawgit.com/pirelenito/react-transition/master/index.html).
 
 ## Usage
 
-Install with [Bower](http://bower.io/):
+Here is an example usage:
 
-```bash
-bower install react-transition
+```js
+<ReactTransition component="div" ease="bounce" duration="500" style={{ left: left }}/>
 ```
 
-With [NPM](http://npmjs.org/):
+Where the `ReactTransition` component will actualy render a `div`, and it will apply the `bounce` ease function with a duration of `500` milisseconds on any [componentWillReceiveProps](http://facebook.github.io/react/docs/component-specs.html#updating-componentwillreceiveprops) of the `style` property.
+
+## Install
+
+Install with [NPM](http://npmjs.org/):
 
 ```bash
 npm install react-transition
 ```
 
-Or simply dowload the [react-transition.js](https://raw.githubusercontent.com/pirelenito/react-transition/master/react-transition.js) file and add as a script tag in your HTML (it will expose a `ReactTransition` global variable):
+It also is available as an UMD. Having support for [AMD](https://github.com/amdjs/amdjs-api/wiki/AMD), [CommonJS](http://wiki.commonjs.org/wiki/CommonJS) and globals, which can be installed through [Bower](http://bower.io/):
+
+```bash
+bower install react-transition
+```
+
+Or simply dowloading the [dist/react-transition.js](https://raw.githubusercontent.com/pirelenito/react-transition/master/dist/react-transition.js) distribution file and add as a script tag in your HTML (it will expose a `ReactTransition` global variable):
 
 ```html
 <script src='react-transition.js'></script>
 ```
-
-Here is an example usage as a CommonJS module:
-
-```js
-/** @jsx React.DOM */
-var Transition = require('react-transition'),
-    React = require('react');
-
-<Transition component={React.DOM.path} ease="bounce" duration="500" className="link" d={diagonal(link)}/>
-```
-
-In the previous example, the `Transition` component will actualy render a `React.DOM.path`, and it will apply the `bounce` ease function with a duration of `500` milisseconds on any [componentWillReceiveProps](http://facebook.github.io/react/docs/component-specs.html#updating-componentwillreceiveprops) of the `d` property.
 
 ## Easing functions
 
@@ -48,7 +44,6 @@ In the previous example, the `Transition` component will actualy render a `React
 
 * [React.js](http://reactjs.com/)
 * [D3](http://d3js.org/)
-* [Underscore](http://underscorejs.org/)
 
 ## Author
 

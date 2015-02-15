@@ -2,9 +2,12 @@
   "name": "react-transition",
   "version": "0.0.3",
   "description": "React Component to perform transitions on prop changes",
-  "main": "react-transition.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jsxhint lib/ spec/ && ./node_modules/.bin/jshint lib/ spec/ && ./node_modules/karma/bin/karma start karma.conf.js",
+    "watch-test": "./node_modules/karma/bin/karma start karma.conf.js --auto-watch --no-single-run",
+    "build": "./node_modules/.bin/webpack --config webpack.build.config.js -p",
+    "dev": "./node_modules/.bin/webpack-dev-server --config webpack.build.config.js --inline --hot"
   },
   "repository": {
     "type": "git",
@@ -23,8 +26,26 @@
     "url": "https://github.com/pirelenito/react-transition/issues"
   },
   "homepage": "https://github.com/pirelenito/react-transition",
+  "devDependencies": {
+    "css-loader": "^0.9.1",
+    "es5-shim": "^4.1.0",
+    "jasmine": "^2.2.1",
+    "jasmine-core": "^2.2.0",
+    "jshint": "^2.6.0",
+    "jsx-loader": "^0.12.2",
+    "jsxhint": "^0.10.0",
+    "karma": "^0.12.31",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-webpack": "^1.5.0",
+    "sass-loader": "^0.4.0-beta",
+    "style-loader": "^0.8.3",
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0"
+  },
   "dependencies": {
-    "d3": "^3.4.11",
+    "d3": "^3.5.5",
+    "lodash.foreach": "^3.0.1",
     "react": "^0.12.0",
     "underscore": "^1.6.0"
   }
