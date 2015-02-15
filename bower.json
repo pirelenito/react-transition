@@ -5,7 +5,7 @@
     "Paulo Ragonha <paulo@ragonha.me>"
   ],
   "description": "React Component to perform transitions on prop changes",
-  "main": "react-transition.js",
+  "main": "dist/react-transition.js",
   "moduleType": [
     "amd",
     "globals",
