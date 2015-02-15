@@ -1,5 +1,7 @@
 # React Transition Component
 
+[![Build Status](https://secure.travis-ci.org/pirelenito/react-transition.png)](https://travis-ci.org/pirelenito/react-transition)
+
 [React.js](http://reactjs.com/) component that will apply transitions on any prop change. Was created to be used on drawing SVG charts with [D3](http://d3js.org/), but can be used for anything.
 
 ![Demo](https://rawgit.com/pirelenito/react-transition/master/demo.gif)
