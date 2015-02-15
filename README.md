@@ -16,7 +16,7 @@ Here is an example usage:
 <ReactTransition component="div" ease="bounce" duration="500" style={{ left: left }}/>
 ```
 
-Where the `ReactTransition` component will actualy render a `div`, and it will apply the `bounce` ease function with a duration of `500` milisseconds on any [componentWillReceiveProps](http://facebook.github.io/react/docs/component-specs.html#updating-componentwillreceiveprops) of the `style` property.
+The `ReactTransition` component will actualy render a `div`, and it will apply the `bounce` ease function with a duration of `500` milisseconds on any [componentWillReceiveProps](http://facebook.github.io/react/docs/component-specs.html#updating-componentwillreceiveprops) of the `style` property.
 
 ## Install
 
