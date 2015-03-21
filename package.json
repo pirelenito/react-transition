@@ -1,6 +1,6 @@
 {
   "name": "react-transition",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Component to perform transitions on prop changes",
   "main": "lib/index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "keywords": [
     "react",
     "reactjs",
+    "react-component",
     "transition",
     "animation",
     "tween"

@@ -1,6 +1,6 @@
 {
   "name": "react-transition",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "authors": [
     "Paulo Ragonha <paulo@ragonha.me>"
   ],
@@ -15,6 +15,7 @@
     "react",
     "transition",
     "reactjs",
+    "react-component",
     "animation",
     "tween"
   ],
